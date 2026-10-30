@@ -1,18 +1,55 @@
-<div align="center">
 
-<img src="screenshots/report.png" alt="PEek report" width="700">
+<div align="center">
 
 # PEek
 
-**See what a program really does, before you run it.**
+### See what a program really does, before you run it.
 
-[Try it live](https://hyperioxhell.github.io/PEek/)
+**Static analysis. Reverse engineering. AI-powered threat intelligence.**
 
-![License](https://img.shields.io/badge/license-AGPL--3.0-blue)
-![Status](https://img.shields.io/badge/status-experimental-orange)
-![Uploads](https://img.shields.io/badge/uploads-zero-brightgreen)
+<br>
 
-*Example report for a harmless test file made to look dangerous. It isn't real malware.*
+[**🌐 Launch PEek**](https://hyperioxhell.github.io/PEek/)
+
+<br>
+
+![Example PEek report](PEek/peek/report.png)
+
+*An example of a PEek analysis report*
+
+<br>
+
+![License](https://img.shields.io/badge/LICENSE-AGPL--3.0-8b5cf6?style=for-the-badge)
+![Status](https://img.shields.io/badge/STATUS-EXPERIMENTAL-f59e0b?style=for-the-badge)
+![Uploads](https://img.shields.io/badge/UPLOADS-ZERO-22c55e?style=for-the-badge)
+
+</div>
+
+---
+
+## About PEek
+
+PEek is an experimental malware analysis platform designed to help users understand what executable files actually do.
+
+Instead of simply labeling files as safe or malicious, PEek examines their characteristics, identifies suspicious behaviors, and generates detailed AI-assisted analysis reports.
+
+## Features
+
+- **Static Analysis** — Examine executable structures without running the file.
+- **Threat Detection** — Identify suspicious behaviors and malware indicators.
+- **AI Analysis** — Generate readable explanations of technical findings.
+- **Risk Scoring** — Get an overall threat score out of 10.
+- **Detailed Reports** — View detected behaviors, classifications, and findings.
+
+## Disclaimer
+
+PEek is experimental. Its results are not a guarantee that a file is safe or malicious. Always treat unknown executables with caution.
+
+---
+
+<div align="center">
+
+**PEek** · Understand before you execute.
 
 </div>
 
