@@ -110,6 +110,8 @@ PEEk is strictly static. So PEEk wont do any of the following:
   - 7 behaviors, such as DISCOVERY, PERSISTENCE and DEFENSE_EVASION
 - MITRE ATT&CK IDs on findings where one fits, linked to MITRE's site
 
+You also get an explanation on what to do depending on the files riskiness.
+
 ### .NET reverse engineering
 
 - Reads classes, methods, native calls and libraries from .NET programs
