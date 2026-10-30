@@ -13,7 +13,7 @@
 
 <br>
 
-![Example PEek report](PEek/peek/report.png)
+![Example PEek report](https://github.com/HyperioXHell/PEek/blob/main/report.png?raw=true)
 
 *An example of a PEek analysis report*
 
