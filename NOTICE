@@ -1,21 +1,14 @@
 PEek
-Copyright (C) 2026 HyperioXHell
+Copyright (c) 2026 HyperioXHell
 
-PEek is free software: you can redistribute it and/or modify it under the terms
-of the GNU Affero General Public License version 3 as published by the Free
-Software Foundation, with the additional term below. It is distributed WITHOUT
-ANY WARRANTY, without even the implied warranty of MERCHANTABILITY or FITNESS
-FOR A PARTICULAR PURPOSE. See the LICENSE file for the full terms.
+PEek is source-available under the PolyForm Noncommercial License 1.0.0.
+See the LICENSE file for the full terms. It may not be sold or used
+commercially without permission from HyperioXHell.
 
-
-Additional term under section 7(b) of the GNU AGPL
-
-Modified versions of PEek must keep this notice, and must keep the author
-attribution "Created by HyperioXHell" in the project's documentation and in a
-reasonably visible place on any website or interface they provide.
+Required Notice: Copyright (c) 2026 HyperioXHell (https://github.com/HyperioXHell)
 
 
-Third-party material that is NOT under the GNU AGPL
+Third-party material that is NOT under the PolyForm Noncommercial License
 
 js/signatures-data.js and js/families-more.js are derived from Elastic's public
 YARA rules (https://github.com/elastic/protections-artifacts), Copyright
