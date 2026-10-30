@@ -1,11 +1,10 @@
-
 <div align="center">
 
 # PEek
 
 ### See what a program really does, before you run it.
 
-**Static analysis. Reverse engineering. AI-powered threat intelligence.**
+**Static analysis. Reverse engineering. Plain-English reports.**
 
 <br>
 
@@ -19,7 +18,7 @@
 
 <br>
 
-![License](https://img.shields.io/badge/LICENSE-AGPL--3.0-8b5cf6?style=for-the-badge)
+![License](https://img.shields.io/badge/LICENSE-POLYFORM%20NONCOMMERCIAL-8b5cf6?style=for-the-badge)
 ![Status](https://img.shields.io/badge/STATUS-EXPERIMENTAL-f59e0b?style=for-the-badge)
 ![Uploads](https://img.shields.io/badge/UPLOADS-ZERO-22c55e?style=for-the-badge)
 
@@ -31,13 +30,13 @@
 
 PEek is an experimental malware analysis platform designed to help users understand what executable files actually do.
 
-Instead of simply labeling files as safe or malicious, PEek examines their characteristics, identifies suspicious behaviors, and generates detailed AI-assisted analysis reports.
+Instead of simply labeling files as safe or malicious, PEek examines their characteristics, identifies suspicious behaviors, and generates detailed plain-English analysis reports.
 
 ## Features
 
 - **Static Analysis** — Examine executable structures without running the file.
 - **Threat Detection** — Identify suspicious behaviors and malware indicators.
-- **AI Analysis** — Generate readable explanations of technical findings.
+- **Optional AI Opinion** — Get an AI explanation of the findings, if you set it up.
 - **Risk Scoring** — Get an overall threat score out of 10.
 - **Detailed Reports** — View detected behaviors, classifications, and findings.
 
@@ -183,13 +182,13 @@ You also get an explanation on what to do depending on the files riskiness.
 
 Created by HyperioXHell.
 
-Many family text markers and all byte signatures come from Elastic's public protections-artifacts YARA rules (https://github.com/elastic/protections-artifacts), Copyright Elasticsearch B.V., licensed under the Elastic License 2.0. A copy of that license is in third-party/ELASTIC-LICENSE.txt.
+Many family text markers and all byte signatures come from Elastic's public protections-artifacts YARA rules (https://github.com/elastic/protections-artifacts), Copyright Elasticsearch B.V., licensed under the Elastic License 2.0. A copy of that license is in ELASTIC-LICENSE.txt.
 
 ## License
 
-PEek is Copyright (C) 2026 HyperioXHell and is licensed under the GNU AGPL-3.0, with one added term: modified versions must keep the "Created by HyperioXHell" credit. See LICENSE and NOTICE.
+PEek is Copyright (c) 2026 HyperioXHell and is source-available under the PolyForm Noncommercial License 1.0.0. You can use, change and share it for noncommercial purposes, but you must keep the Required Notice with my name, and you can't sell it. See LICENSE and NOTICE.
 
-The files js/signatures-data.js and js/families-more.js are not under the AGPL. They stay under the Elastic License 2.0.
+The files signatures-data.js and families-more.js are not under this license. They stay under the Elastic License 2.0.
 
 ## Why PEEk?
 
@@ -200,3 +199,5 @@ Peek is completely free (as of right now). It was made for experimentation and f
 This project is still experimental. And i never guarantee 100 percent correctness, and no antivirus or folder analyzer can. It is basically not possible.
 
 As of right now, it has not been tested with real malware, but it has gone through strict tests with imitation programs. Like every antivirus and file analyzer, it can't be 100 percent correct, so you should still expect false positives and missed detections. This program only looks at behavior, code and structure using RE and looking at its integrity.
+
+Still, this also doesn't mean you should "ignore" the analysis it gives you. Never download software or open software that you aren't sure about. I really dont know why i am saying this. Tbh even 6 year olds now about this now. So please don't be dumb.
